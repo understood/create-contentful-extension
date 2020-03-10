@@ -8,7 +8,7 @@ module.exports = {
   packageJson: resolveApp('package.json'),
   root: resolveApp('.'),
   src: resolveApp('src'),
-  build: resolveApp('build'),
+  build: resolveApp('public'),
   cache: resolveApp('.cache'),
   coverage: resolveApp('.coverage')
 };
